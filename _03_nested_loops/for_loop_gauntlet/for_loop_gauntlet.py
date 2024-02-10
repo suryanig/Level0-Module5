@@ -52,8 +52,14 @@ if __name__ == '__main__':
             print (i*3 + s, end = "  ")
         print (" ")
 
-    #3 still working on
+    #3 yes
+    for i in range (0,10,1):
+        for s in range (1,11,1):
+            print (i*10 + s, end = "  ")
+        print (" ")
 
-
-    # end = ""
-
+    #4 yes
+    for i in range (1,7,1):
+        for s in range (i):
+            print ("*", end = "  ")
+        print (" ")
